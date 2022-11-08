@@ -78,7 +78,7 @@ def imprimirValores(origenes, destinos, valores, oferta, demanda):
                     print(f'  {valores[x-1][y-1]}\t', end="\t")
 
 
-def esquinaNoroeste(origenes, destinos, valores, oferta, demanda):
+def optimizacionDrones(origenes, destinos, valores, oferta, demanda):
     res = []
     val = []
     x = 0
@@ -149,7 +149,7 @@ def main():
     print('                  TABLA ORGANIZADA\n')
     imprimirValores(origenes, destinos, valores, oferta, demanda)
     print('============================================================')
-    res = esquinaNoroeste(origenes, destinos, valores, oferta, demanda)
+    res = optimizacionDrones(origenes, destinos, valores, oferta, demanda)
     print('                   RESULTADO\n')
     imprimirResultados(res)
     print('============================================================')
