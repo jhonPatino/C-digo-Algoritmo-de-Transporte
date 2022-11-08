@@ -10,7 +10,7 @@ def getValores(origenes, destinos):
     valores = [[0 for x in range(origenes)] for y in range(destinos)]
     for x in range(origenes):
         for y in range(destinos):
-            valores[x][y] = verifyIntInput(f'Introducir el valor del origen {x} con el destino {y}: ')
+            valores[x][y] = verifyIntInput(f'Introducir el costo del origen {x} con el destino {y}: ')
     return valores
 
 def getOferta(num):
