@@ -16,14 +16,14 @@ def getValores(origenes, destinos):
 def getOferta(num):
     oferta = []
     for x in range(num):
-        aux = verifyIntInput(f'Introducir la oferta del origen {x}:')
+        aux = verifyIntInput(f'Introducir la cantidad de drones disponibles en el origen {x}:')
         oferta.append(aux)
     return oferta
 
 def getDemandas(num):
     demanda = []
     for x in range(num):
-        aux = verifyIntInput(f'Introducir la demanda del destino {x}:')
+        aux = verifyIntInput(f'Introducir la cantidad de drones necesitados del destino {x}:')
         demanda.append(aux)
     return demanda
 
